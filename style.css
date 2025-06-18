@@ -24,7 +24,7 @@ body {
   overflow: hidden;
   width: 60%;
 }
-.display {
+#display {
   background: hsl(224, 36%, 15%);
   color: #ffffff;
   font-size: 1.5em;
@@ -53,6 +53,9 @@ body {
   border-radius: 5px;
   padding: 8px 6px;
   font-family: "League Spartan", sans-serif !important;
+  font-weight: 900;
+  color: hsl(221, 14%, 31%);
+  box-shadow: hsl(224, 28%, 35%);
 }
 
 .bottom {
@@ -65,5 +68,9 @@ body {
     flex: 1;
     height: 35px;
     border-radius: 5px;
+  }
+  .btn-equal {
+    background: hsl(6, 63%, 50%);
+    color: #ffffff;
   }
 }
